@@ -12,7 +12,7 @@ Collapse probability
 
 TWAP rebuy efficiency
 
-# ⚙️ Core Simulation Inputs
+## ⚙️ Core Simulation Inputs
 Parameter	Description
 Base Asset Volatility	BTC historical volatility (daily std dev ~4.8%)
 Rebuy Trigger Logic	TWAP deviation > 6.5% from 7-day moving average
