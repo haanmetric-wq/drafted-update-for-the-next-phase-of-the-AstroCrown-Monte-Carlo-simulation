@@ -24,6 +24,7 @@ Simulation Horizon	365 days, 10 million paths
 Shock Events	Randomized 3σ volatility spikes every 30–90 days
 Oracle Lag	2-hour delay modeled to simulate real-world latency
 Reserve Refill Logic	BTC rebuy only if reserve < 60% and TWAP deviation persists > 6 hours
+
 📊 Metrics to Be Recalculated
 Metric	Description
 Drawdown Reduction	% reduction in peak-to-trough decline with BTC rebuy
@@ -31,6 +32,7 @@ Recovery Time	Days to return to pre-drawdown price
 Collapse Probability	Likelihood of price falling below emission floor
 TWAP Efficiency	% of rebuy events that led to net price stabilization
 Reserve Drain Risk	% of paths where BTC reserves were exhausted
+
 #🧠 Ethical & Symbolic Audit
 BTC as Ritual Anchor: BTC rebuy logic reflects symbolic grounding in dignity and scarcity.
 
